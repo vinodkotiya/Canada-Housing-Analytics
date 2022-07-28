@@ -23,13 +23,21 @@ This project focuses on the experience of recent immigrants living in Canada usi
 **In continuation to Project report and Data Visualisation Dashboard for showing analytics for Housing and Household expenditure (Demo link). Here we have tried to predict the household expenditure under various head like Food, Shelter, Rent etc for the year 2020 based on the historical data from 2009 to 2019. We have followed these steps:
 
 --Cleaned up data in Tableauprep and uploaded CSV on GITHub (Project link)
+
 --Imported the CSV in Python
+
 --Identified the features for predictions which are year, type of expenditure and amount.
+
 --We tried to increase the datapoint from 10 to 117 by sequencing the expenditure across all provinces.
+
 --Truth or Bluff: Next step was to identify linear regression or polynomial regression to best fit the data.
+
 --Based on R squared value we opted for linear and polynomial regression and developed the prediction model consisting both.
+
 --We have developed both model in a function.
+
 --Read Me File link
+
 Visual Analytics We have made 2 dashboards for clearly explaining the housing scenario for a new immigrant in Canada. For Housing Dashboard Part 1 we have mostly used bar chart and crosstab for giving a comparative analysis of housing cast in different provinces according to family type. We opted for couple, and single family as major immigrants fall into this category, so we discarded the other features from stats Canada data source. For Household Expenditure Dashboard Part 2 we have used bubble chart to show first impression of major annual expenditure to the immigrant. We have used a bar chart to give comparative analysis and a time series chart to show the increase in expenditure under different categories over the year. We again opted for features required for use of immigrants and discarded the irrelevant ones from stats Canada data source.
 
 Housing Dashboard 1  https://public.tableau.com/app/profile/vinod.kotiya/viz/HousingVisualAnalyticsPart1/Dashboard2?publish=yes
